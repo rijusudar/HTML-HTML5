@@ -57,6 +57,8 @@ HTML - HPERTEXT MARK UP LANGUAGE
 && 
 New text-level (inline) elements have also been introduced, such as `<address>`and `<time>`
 
+![An easy-to-understand HTML5 sectioning element flowchart to help you get to grips with some of the new elements in HTML5.](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+
 [Demo](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 
 ## Separating design from content
