@@ -143,9 +143,9 @@ HTML5 provides support for media with elements like `<video>`and [`<audio>`], wh
    `<input type="email"  name="email" required="1"  />`
    `<input type="email"  name="email" required="false"  />`
 
-    -  `required`
-    -  `required=""`
-    -  `required="required"`
+    -  required
+    -  required=""
+    -  required="required"
 
     Correct way 👍
     `<input type="email"  name="email" required />`
