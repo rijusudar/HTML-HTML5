@@ -124,7 +124,29 @@ HTML5 provides support for media with elements like `<video>`and [`<audio>`], wh
 		<br />  - ❌
 		<hr />  - ❌
 
+- Don’t include unnecessary type attributes
 
+  `<!-- Don’t copy this code! It’s attribute overload! -->`  
+`<link type="text/css"  rel="stylesheet"href="css/styles.css"  />`  
+`<script type="text/javascript"  src="js/scripts.js"></script>`
+
+Instead, you can simply write:
+
+`<link rel="stylesheet"  href="css/styles.css"  />`  
+`<script src="js/scripts.js"></script>`
+
+- Incorrect use of form attributes
+`<!-- Don’t copy this code! It’s wrong! -->`  
+`<input type="email"  name="email" required="true"  />`   
+`<input type="email"  name="email" required="1"  />`
+`<input type="email"  name="email" required="false"  />`
+
+ - `required`
+-   `required=""`
+-   `required="required"`
+
+Correct way 👍
+`<input type="email"  name="email" required />`
 ## Validate Your Pages
 
 The W3C provides an official [Markup Validation Service](https://validator.w3.org/), which allows you to quickly check your pages against the HTML5 specification  
